@@ -1,24 +1,250 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook Sesión 3: Misión 0.75: Vibe Coding y la Dupla Dinámica</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
-</body>
 
+    <header>
+        <h1><span class="book-icon">📋</span> <strong>Playbook Sesión 3: Misión 0.75: Vibe Coding y la Dupla Dinámica</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">📝</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <!-- SECCIÓN "DE UN VISTAZO" (ANTES ACTIVITY-0) -->
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: La Misión de Hoy</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos de Aprendizaje:</strong>
+                                    <ul>
+                                        <li><strong>Comprender la Metodología "Dupla Dinámica":</strong> Articular la sinergia colaborativa entre el Estudiante (Director de Proyecto), Xolo (Asesor de Diseño) y el Onshape AI Advisor (Consultor Técnico).</li>
+                                        <li><strong>Definir el "Vibe Coding" para Secundaria:</strong> Entenderlo como el proceso de traducir una intención de diseño ("Vibe") en un diálogo estratégico con la IA para generar un plan de acción, no solo código.</li>
+                                        <li><strong>Aprender el Protocolo de Colaboración:</strong> Interactuar por primera vez con Xolo para aprender directamente de la IA cómo deben trabajar juntos durante el año.</li>
+                                        <li><strong>Ejecutar el Primer Ciclo Creativo:</strong> Aplicar la metodología de la Dupla Dinámica para diseñar y modelar un objeto 3D extremadamente simple en Onshape.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">⚡Actividad 1:</strong> El Concepto Clave: ¿Qué es el "Vibe Coding" en Secundaria?</li>
+                                        <li><strong class="tactic-highlight">⚡Actividad 2:</strong> Aprendiendo el Protocolo: Nuestra Primera Conversación con Xolo</li>
+                                        <li><strong class="tactic-highlight">⚡Actividad 3:</strong> Gnius Storm: Mi Primer Diseño Aumentado por IA</li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Un modelo 3D simple de un "Llavero Personalizado" en Onshape, creado siguiendo el protocolo de la Dupla Dinámica.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable y acceso a computadoras para todos.</li>
+                                        <li>Cuentas de Onshape activas (de la Sesión 1).</li>
+                                        <li>Acceso a la plataforma Gnius Space y al chat con Xolo.</li>
+                                        <li>Presentación de diapositivas de la Sesión 3.</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Dominio del Protocolo:</strong> Realizar el ejercicio del llavero completo siguiendo la metodología de la Dupla Dinámica para anticipar puntos de fricción y dominar el flujo de la clase.</li>
+                                        <li><strong>Preparar Prompts:</strong> Tener listos y a la vista los prompts exactos que los estudiantes usarán para interactuar con Xolo, tanto para aprender el protocolo como para el Gnius Storm.</li>
+                                        <li><strong>Verificar Asistentes de IA:</strong> Asegurarse de que Xolo y el Onshape AI Advisor estén funcionando correctamente antes de la clase.</li>
+                                        <li><strong>Enfocar en el Proceso:</strong> El objetivo de la clase es el *proceso*, no el resultado final. Estar preparado para guiar a los estudiantes a través del diálogo con la IA, más que a resolver problemas técnicos de Onshape directamente.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- FIN DE LA SECCIÓN "DE UN VISTAZO" -->
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: El Concepto Clave: ¿Qué es el "Vibe Coding"? ⏰ 10 minutos</h2>
+                <p>Definir el término "Vibe Coding" en el contexto de Secundaria, diferenciándolo de su aplicación en Primaria y estableciendo las bases de la metodología "Dupla Dinámica".</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Conectando con el Pasado, Mirando al Futuro ⏰ 3 minutos</h3>
+                            <p>(Proyectar Diapositiva: "La Evolución del Vibe Coding")</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Buenas tardes. En las sesiones anteriores, sentamos las bases: conocen la misión de Gnius Club, su centro de mando Gnius Space y a su copiloto IA, Xolo. Hoy, vamos a definir la habilidad más importante que desarrollarán aquí: el Vibe Coding. Algunos de ustedes quizá lo conocen de Primaria, donde le decían su 'vibe' a la IA y esta les daba un plan de código en bloques. En Secundaria, el concepto evoluciona radicalmente. Ya no se trata de que la IA les dé el código. Se trata de que ustedes aprendan a *dirigir* a un ecosistema de IAs para construir soluciones complejas.</p>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Presentando la "Dupla Dinámica" ⏰ 7 minutos</h3>
+                            <p>(Proyectar Diapositiva: Un diagrama visual que muestra al "Estudiante" en el centro, con flechas de diálogo hacia "Xolo (Asesor de Diseño)" y "Onshape AI Advisor (Consultor Técnico)").</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Para dominar herramientas profesionales como Onshape, no podemos usar la misma estructura de clase de antes. Por eso hemos creado la metodología de la **'Dupla Dinámica'**. Olvídense de que yo les explique cada clic. A partir de ahora, el aprendizaje es una colaboración activa entre ustedes y dos asistentes de IA especializados. Estos son los roles:</p>
+                                <p class="dialogue assistant">1. <strong>"Ustedes son los Directores del Proyecto.</strong> Ustedes tienen la visión, toman las decisiones finales, ejecutan las acciones y son los responsables creativos del resultado. El poder está en sus manos."</p>
+                                <p class="dialogue assistant">2. <strong>"Xolo es su Asesor de Diseño y Meta-Coach.</strong> El rol de Xolo **NO** es enseñarles a usar las herramientas de Onshape. Su función es mucho más importante: es guiar su *pensamiento de alto nivel*. Xolo es un experto en principios de diseño, en estrategia de proyecto y, lo más crucial, en *cómo hablar con otras IAs*. Él les enseñará a pensar como diseñadores y a formular las preguntas correctas."</p>
+                                <p class="dialogue assistant">3. <strong>"El Onshape AI Advisor es su Consultor Técnico de CAD.</strong> Esta es la herramienta experta pero 'pasiva'. No les va a guiar, pero responderá cualquier pregunta técnica específica que tengan sobre Onshape. Piensen en él como el manual de usuario interactivo más rápido y avanzado del mundo. Si se preguntan '¿cómo funciona la herramienta 'Revolve'?', se lo preguntan a él."</p>
+                                <p class="dialogue assistant">El Vibe Coding en Secundaria es el *diálogo* que ustedes, como directores, mantienen con Xolo para crear un plan, y luego con el Onshape AI Advisor para resolver los detalles técnicos. Ahora, vamos a aprender directamente de Xolo cómo funciona este protocolo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: Aprendiendo el Protocolo: Nuestra Primera Conversación con Xolo ⏰ 10 minutos</h2>
+                <p>Que los estudiantes realicen su primera interacción formal de aprendizaje con Xolo, entendiendo el flujo de trabajo que seguirán de ahora en adelante.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: La Primera Directiva a Xolo ⏰ 3 minutos</h3>
+                            <p>(Proyectar Diapositiva: Un cuadro de texto con un prompt. "Tu Primera Misión: Aprende el Protocolo")</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Muy bien, es hora de poner esto en práctica. Abran el chat con Xolo en Gnius Space. Su primera tarea como Directores de Proyecto es instruir a su copiloto para que les enseñe el protocolo de trabajo. Quiero que todos escriban este prompt exacto en el chat con Xolo:</p>
+                                <pre class="dialogue assistant" style="color: #d32f2f;">"Hola Xolo. Soy un nuevo estudiante de Gnius Club. Mi misión es aprender el protocolo de la 'Dupla Dinámica'. Explícame paso a paso cómo debo colaborar contigo y con el Onshape AI Advisor para desarrollar mis proyectos."</pre>
+                                <p class="dialogue assistant">Tómense un minuto para escribirlo y lean atentamente su respuesta. Es la guía más importante que recibirán hoy.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: La Explicación de Xolo ⏰ 7 minutos</h3>
+                            <p>(Los estudiantes leen la respuesta de Xolo en sus pantallas. El facilitador proyecta su propia respuesta y la lee en voz alta para guiar y reforzar.)</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Bienvenido, Director de Proyecto! Es un placer iniciar esta colaboración. El protocolo de la 'Dupla Dinámica' está diseñado para maximizar tu creatividad y eficiencia. Aquí está nuestro flujo de trabajo en 5 pasos clave:</p>
+                                <p class="dialogue assistant"><strong>1. Define tu 'Vibe' (Tu Intención):</strong> Todo empieza contigo. Antes de hablar conmigo, debes tener una idea clara, una intención. No tiene que ser técnica, sino conceptual. Por ejemplo: *'Mi vibe es crear un soporte para mi teléfono que sea estable y elegante.'*</p>
+                                <p class="dialogue assistant"><strong>2. Dialoga conmigo para crear el 'Brief' (El Plan Estratégico):</strong> Una vez que tienes tu 'vibe', vienes a mí. Discutiremos tu idea. Te haré preguntas de diseño: *'¿Para qué modelo de teléfono? ¿En qué ángulo debe sostenerlo? ¿Qué entiendes por 'elegante'?'*. Juntos, transformaremos tu 'vibe' en un plan de acción concreto.</p>
+                                <p class="dialogue assistant"><strong>3. Formula la Pregunta Técnica (Mi Entrenamiento para Ti):</strong> Basado en nuestro plan, te ayudaré a formular la pregunta técnica perfecta para el experto: el Onshape AI Advisor. Por ejemplo, en lugar de preguntarle '¿cómo hago el soporte?', te enseñaré a preguntar: *'What are the best practices in Onshape to create a slotted stand with a 15-degree angle?'*.</p>
+                                <p class="dialogue assistant"><strong>4. Consulta al Experto y Ejecuta (Tu Acción Técnica):</strong> Con esa pregunta precisa, irás al Onshape AI Advisor. Él te dará la respuesta técnica detallada. Tu trabajo es aplicar esa guía directamente en Onshape para modelar tu pieza. Si surge otra duda técnica, vuelves a él.</p>
+                                <p class="dialogue assistant"><strong>5. Cierra el Bucle y Reflexiona (Nuestra Siguiente Estrategia):</strong> Una vez que hayas completado un paso técnico, vuelves a mí. Me muestras tu progreso (ej. *'Xolo, ya creé la base principal'*) y juntos planificamos el siguiente movimiento estratégico.</p>
+                                <p class="dialogue assistant">Recuerda: **Yo soy el 'porqué' y el 'qué'. El Onshape AI Advisor es el 'cómo técnico'. Tú eres el Director que orquesta todo.** ¿Listo para tu primer ciclo?</p>
+                                <p class="dialogue assistant">(reforzando): ¿Queda claro el flujo? Intención, estrategia conmigo, pregunta técnica al Advisor, ejecución, y de vuelta a mí para el siguiente paso. Este es el ciclo que repetiremos en cada proyecto. Ahora, vamos a hacer nuestro primer ciclo completo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                 <h2>⚡ Actividad 3: Gnius Storm: Mi Primer Diseño Aumentado por IA ⏰ 20 minutos</h2>
+                <p>Aplicar de forma inmediata el protocolo recién aprendido en un micro-proyecto simple, guiado y con alta probabilidad de éxito.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Definir el Micro-Proyecto y el 'Vibe' Inicial ⏰ 3 minutos</h3>
+                            <p>(Proyectar Diapositiva: "Gnius Storm: Llavero Personalizado")</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Ok, Directores. Su primer proyecto es diseñar y modelar un llavero personalizado simple. Su **'Vibe' inicial** es el siguiente: *'Un llavero rectangular con mi inicial grabada y un agujero para el aro.'* Ese es su punto de partida. Ahora, inicien el protocolo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Paso 2 del Protocolo - Diálogo con Xolo ⏰ 5 minutos</h3>
+                            <p>Interactuar con Xolo para transformar el 'vibe' en un plan de diseño concreto.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                 <p class="dialogue assistant">Siguiendo el protocolo, ahora deben dialogar con Xolo para transformar ese 'vibe' en un plan. Abran el chat y díganle su intención. Por ejemplo: `Xolo, mi proyecto es un llavero rectangular con mi inicial y un agujero. Ayúdame a crear el plan de diseño.` Interactúen con él mientras los guía para definir las dimensiones.</p>
+                                 <p class="dialogue assistant">(Se espera que Xolo les haga preguntas como: '¡Excelente idea! ¿Qué dimensiones te imaginas para el rectángulo? ¿Qué tan grande quieres que sea tu inicial? ¿Dónde debería estar el agujero?'. Tras un breve diálogo, Xolo debe consolidar el plan.)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Paso 3 del Protocolo - Formulando la Pregunta ⏰ 5 minutos</h3>
+                            <p>Pedir a Xolo el prompt técnico preciso para el Onshape AI Advisor.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Una vez que tengan su plan con dimensiones, pídanle a Xolo el siguiente paso. Díganle: `Ok Xolo, ya tengo el plan. ¿Cuál es la primera pregunta técnica que debo hacerle al Onshape AI Advisor para crear la base rectangular?`</p>
+                                <p class="dialogue assistant">(Se espera que Xolo responda con el prompt preciso):</p>
+                                <pre class="dialogue assistant" style="color: #d32f2f;">"Perfecto. Tu primer prompt para el Onshape AI Advisor es: 'What are the steps to create a solid rectangular body of 50mm by 25mm with a thickness of 3mm in Onshape?' (ajusta las medidas a las que definieron)."</pre>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 4: Paso 4 del Protocolo - Ejecución Aumentada ⏰ 7 minutos</h3>
+                            <p>El facilitador circula, pero en lugar de dar respuestas técnicas, guía a los estudiantes de vuelta al protocolo: "¿Ya le preguntaste eso al Advisor? ¿Qué te respondió Xolo sobre el siguiente paso estratégico?".</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Ahora, a la acción. Vayan a Onshape. Si lo necesitan, usen el prompt que les dio Xolo para consultar al Onshape AI Advisor. Su misión es completar la base rectangular. Luego, regresen a Xolo para planificar el siguiente paso: la inicial y el agujero. Tienen 7 minutos para completar su llavero. Si terminan, exploren cómo redondear los bordes (Fillet).</p>
+                                <p class="dialogue assistant">(al finalizar el tiempo): ¡Tiempo! Levanten la mano quienes tengan un llavero 3D en su pantalla. Excelente. Hoy no solo crearon un objeto. Estrenaron un nuevo método de trabajo, una nueva forma de pensar y de colaborar con la inteligencia artificial. Este protocolo es la base de todo lo que haremos. Dominarlo es la clave del éxito en Gnius Club. ¡Felicidades por completar su primer diseño aumentado!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
